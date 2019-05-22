@@ -1,6 +1,7 @@
 # libstdc-
-libstdc++.6.0.9.dylib libstdc++.6.dylib libstdc++.dylib
+`libstdc++.6.0.9.dylib libstdc++.6.dylib libstdc++.dylib`
 
+```
 #RuntimeRoot
 open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/
 
@@ -11,7 +12,7 @@ open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Deve
 
 
 open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/
-
+```
 这三个目录添加一下这三个库完美解决
 库可以去xcode9.4.1或更早版本去找
 也可以去这边下载https://github.com/codesourse/libstdc-
