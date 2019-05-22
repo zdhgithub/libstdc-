@@ -3,9 +3,13 @@ libstdc++.6.0.9.dylib libstdc++.6.dylib libstdc++.dylib
 
 #RuntimeRoot
 open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/
+
+
 #iPhoneOS
 open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/
 #iPhoneSimulator
+
+
 open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/
 
 这三个目录添加一下这三个库完美解决
